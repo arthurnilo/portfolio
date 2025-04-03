@@ -34,52 +34,29 @@ export default function Portfolio() {
     },
     {
       id: 3,
-      title: "Portfolio Website",
-      description: "A responsive portfolio website with modern design.",
+      title: "Online Temperature Search",
+      description: "A website for fast temperature searchinig all over the world.",
       longDescription:
-        "A clean and modern portfolio website designed to showcase projects and skills. Features smooth animations, responsive design, and optimized performance.",
-      technologies: ["HTML", "CSS", "JavaScript", "GSAP"],
-      imageUrl: "/placeholder.svg?height=300&width=600",
-      demoUrl: "#",
-      githubUrl: "#",
+        "An intuitive and fast platform to check temperatures worldwide in just a few seconds.",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      imageUrl: "/temperaturaPrint.png?height=300&width=600",
+      demoUrl: "https://temperaturaonline.netlify.app/",
+      githubUrl: "https://github.com/arthurnilo/temperaturaOnline",
       featured: true,
     },
     {
       id: 4,
-      title: "Weather Dashboard",
-      description: "A weather application with forecast data and location search.",
+      title: "Ping-Pong Game",
+      description: "A ping-pong game vs computer.",
       longDescription:
-        "This weather dashboard provides current conditions and 5-day forecasts for any location. It features location search, saved locations, and detailed weather information including temperature, humidity, wind speed, and more.",
-      technologies: ["React", "OpenWeather API", "Chart.js", "Geolocation API"],
-      imageUrl: "/placeholder.svg?height=300&width=600",
-      demoUrl: "#",
-      githubUrl: "#",
-      featured: false,
+        "This game it's just to test HTML and entertain you, because it's literally impossible to win haha.",
+      technologies: ["HTML"],
+      imageUrl: "/pingpongPrint.png?height=300&width=600",
+      demoUrl: "https://pingpongvscomputer.netlify.app/",
+      githubUrl: "https://github.com/arthurnilo/pingpong",
+      featured: true,
     },
-    {
-      id: 5,
-      title: "Recipe Finder",
-      description: "A recipe search application with filtering and saving capabilities.",
-      longDescription:
-        "This recipe finder helps users discover meals based on ingredients they have, dietary restrictions, or cuisine preferences. Users can save favorite recipes, create shopping lists, and share recipes with friends.",
-      technologies: ["Vue.js", "Vuex", "Spoonacular API", "Firebase"],
-      imageUrl: "/placeholder.svg?height=300&width=600",
-      demoUrl: "#",
-      githubUrl: "#",
-      featured: false,
-    },
-    {
-      id: 6,
-      title: "Fitness Tracker",
-      description: "A workout tracking application with progress visualization.",
-      longDescription:
-        "This fitness tracker allows users to log workouts, track progress over time, and set fitness goals. It includes features like exercise libraries, workout routines, and progress charts to visualize improvements.",
-      technologies: ["React Native", "Redux", "Node.js", "MongoDB"],
-      imageUrl: "/placeholder.svg?height=300&width=600",
-      demoUrl: "#",
-      githubUrl: "#",
-      featured: false,
-    },
+    
   ]
 
   return (

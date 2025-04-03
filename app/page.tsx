@@ -19,22 +19,22 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ProjectPreview
-            title="E-commerce Platform"
-            description="A full-stack e-commerce solution with payment integration"
-            technologies={["React", "Node.js", "MongoDB"]}
-            imageUrl="/placeholder.svg?height=200&width=400"
-          />
-          <ProjectPreview
-            title="Task Management App"
-            description="A productivity app with real-time updates and collaboration features"
-            technologies={["Next.js", "Firebase", "Tailwind CSS"]}
-            imageUrl="/placeholder.svg?height=200&width=400"
-          />
-          <ProjectPreview
-            title="Portfolio Website"
-            description="A responsive portfolio website with modern design"
+            title="Online Legal Assistance"
+            description="A full-stack legal assistence website that provides people to get fast contact with law professionals."
             technologies={["HTML", "CSS", "JavaScript"]}
-            imageUrl="/placeholder.svg?height=200&width=400"
+            imageUrl="/nexusPrint.png?height=200&width=400"
+          />
+          <ProjectPreview
+            title="Simple Linktree"
+            description="A custom Linktree for seamless navigation to your links."
+            technologies={["HTML", "CSS"]}
+            imageUrl="/landingPrint.png?height=200&width=400"
+          />
+          <ProjectPreview
+            title="Online Temperature Search"
+            description="A website for fast temperature searchinig all over the world."
+            technologies={["HTML", "CSS", "JavaScript"]}
+            imageUrl="/temperaturaPrint.png?height=200&width=400"
           />
         </div>
         <div className="text-center mt-12">
