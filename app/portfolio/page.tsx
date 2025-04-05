@@ -56,7 +56,20 @@ export default function Portfolio() {
       githubUrl: "https://github.com/arthurnilo/pingpong",
       featured: true,
     },
-    
+
+    {
+      id: 5,
+      title: "Financial Dashboard",
+      description: "A dashboard to track your finances with ease.",
+      longDescription:
+        "This is a responsive dashboard to track your finances and reach your financials goals that you can easily edit.",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      imageUrl: "/financialPrint.png?height=300&width=600",
+      demoUrl: "https://financialdashboard1.netlify.app//",
+      githubUrl: "https://github.com/arthurnilo/dashboard",
+      featured: true,
+    },
+
   ]
 
   return (
